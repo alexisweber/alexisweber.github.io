@@ -3,20 +3,26 @@ project:
   output-dir: docs
 
 website:
-  title: "alexisweber.github.io"
+  title: "Alexis Weber"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: cv.qmd
+        text: CV
+  page-navigation: true
+  search: true
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
-    css: styles.css
+    theme: flatly
     toc: true
+    toc-location: right
+    css: styles.css  
 
 editor: visual
 
+# make sure static files like your PDF are copied
+resources:
+  - assets/**
+  - media/**
