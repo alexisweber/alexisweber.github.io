@@ -1,0 +1,137 @@
+---
+title: "Alexis Weber, Ph.D."
+subtitle: "Curriculum Vitae"
+title-block-banner: "media/backgrnd4.png" 
+format:
+  html:
+    css: cv.css  
+---
+
+<a id="top"></a>
+
+[Download CV (PDF)](assets/cv/Alexis_Weber_CV.pdf){.btn .btn-primary .mb-3}
+
+## Human Genetics Computational Scientist
+
+[Email](mailto:alexisweber@g.ucla.edu) · [GitHub](https://github.com/alexisweber)
+
+## Education
+
+**Ph.D., Human Genetics** — University of California, Los Angeles
+
+**B.Sc., Genomics and Molecular Genetics** — Michigan State University
+
+## Certifications
+
+-   Certificate in Fundamentals of AI/ML in Precision Medicine — Stanford University
+-   Certificate in Fundamentals of Data Science in Precision Medicine and Cloud Computing— Stanford University
+-   Entering Mentorship Training Certificate — UCLA
+
+## Publications
+
+-   Weber A., *et al.* “A single cell multi-omic analysis identifies molecular and gene-regulatory mechanisms dysregulated in the developing Down syndrome neocortex.” **Science** (2025). \[Link\]
+
+# Projects
+
+<details class="cv-drop">
+
+<summary><strong>Ts21 Atlas — in vivo</strong></summary>
+
+-   🔗 Shiny app: <https://YOURAPPURL>
+-   📦 GitHub: <https://github.com/alexisweber/Ts21_Neocortex_singleNucleiMultiome>
+-   📄 Publication: <https://doi.org/xxxx>
+-   🧩 Submodules:
+    -   Cell–cell communication — 📦 <https://github.com/alexisweber/cellchat-compare>
+    -   Pseudotime — 📦 <https://github.com/alexisweber/pseudotime-pipeline>
+    -   Disease enrichment — 📦 <https://github.com/alexisweber/disease-enrichment>
+    -   Trisomy analysis — 📦 <https://github.com/alexisweber/trisomy-21-analytics>
+
+</details>
+
+<details class="cv-drop">
+
+<summary><strong>Ts21 Atlas — in vitro</strong></summary>
+
+-   🔗 Shiny app: <https://YOURAPPURL>
+-   📦 GitHub: <https://github.com/alexisweber/Ts21_phNPC_singleNucleiMultiome>
+-   📄 Publication: <https://doi.org/xxxx>
+-   🧩 Submodules:
+    -   Pseudotime — 📦 <https://github.com/alexisweber/invitro-pseudotime>
+    -   Gene Ontology — 📦 <https://github.com/alexisweber/go-enrichment>
+    -   Differential expression — 📦 <https://github.com/alexisweber/de-analysis>
+
+</details>
+
+## Skills
+
+### Languages
+
+Python · R · Bash
+
+### Data Analysis
+
+Machine learning · Multiome · Biostatistics
+
+### Scientific Specializations
+
+Genetics & Genomics · Neuroscience · Neurodevelopment
+
+### Experimental Lab Work
+
+Single-nuclei multiomic prep & sequencing · Nuclei isolation · Primary human neural progenitor cell culture ·\
+Immunohistochemistry / Immunocytochemistry · DNA cloning/extraction/seq/analysis · RNA extraction/seq/analysis
+
+## Research Experience
+
+<details class="cv-drop">
+
+<summary><strong>Graduate Student Researcher</strong></summary>
+
+University of California, Los Angeles — Defining Molecular Dysregulation in Down Syndrome Neocortex and Neural Progenitor Cells - Single cell multiomic (RNA and ATAC) Sequencing - Multiomic gene regulatory network computational analysis - Cortical and neocortical nuclei isolation - Primary human neural progenitor cell culture and analysis
+
+</details>
+
+<details class="cv-drop">
+
+<summary><strong>Researcher</strong></summary>
+
+Van Andel Research Institute - Identify Epigenetic Aberrations Underlying Tau Pathology in Alzheimer’s Disease Patients - Bulk RNA-Sequencing and Analysis - ChIP-Seq and Hi-C Preparation and Analysis
+
+-   Characterize Mutations Associated with Cellular Trafficking Pathology in Familial Parkinson’s Disease
+    -   Primary neuronal cell culture
+    -   Genetic engineering and cloning
+    -   In vitro Parkinson’s disease modeling
+
+</details>
+
+<details class="cv-drop">
+
+<summary><strong>Undergraduate Researcher</strong></summary>
+
+Michigan State University Determine the role of alternative RNA editing in Trypanosoma brucei associated with African Sleeping Sickness - Develop pipelines for RNA editing analyses - Develop pipelines for RNA structural analyses
+
+</details>
+
+## Teaching
+
+<details class="cv-drop">
+
+<summary><strong>Research Mentor</strong></summary>
+
+-   Amgen Scholars Program
+-   UCLA
+
+</details>
+
+<details class="cv-drop">
+
+<summary><strong>Teaching Assistant</strong></summary>
+
+-   Preparation for Research in Computational Biology
+-   Introduction to Laboratory and Scientific Methodology
+
+</details>
+
+[Back to top](#top)
+
+------------------------------------------------------------------------

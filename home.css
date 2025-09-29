@@ -1,0 +1,87 @@
+/* Full-page background image */
+body {
+  background:
+    linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)), /* soft darken for contrast */
+    url("media/bckgrnd4.png") center / cover no-repeat;
+}
+
+/* Optional: add a translucent panel behind the left trestles column for readability */
+.quarto-about-trestles .about-entity {
+  background: rgba(0,0,0,.35);
+  color: #fff;
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+}
+
+/* Optional: lighten buttons on the darkened photo */
+.quarto-about-trestles .about-entity .about-links .btn {
+  background: rgba(255,255,255,.12);
+  border: 0;
+  color: #fff;
+}
+
+/* ===== Full-page text color: WHITE (home page only) ===== */
+
+/* Make Bootstrap’s base colors white so most components inherit */
+:root {
+  --bs-body-color: #ffffff;
+  --bs-heading-color: #ffffff;
+  --bs-secondary-color: rgba(255,255,255,0.8);  /* for muted text */
+  --bs-link-color: #ffffff;
+  --bs-link-hover-color: #ffffff;
+  --bs-emphasis-color: #ffffff;
+}
+
+/* General body text fallback (in case something doesn't use variables) */
+body { color: #ffffff; }
+
+/* Headings (explicit, for safety) */
+h1, h2, h3, h4, h5, h6 { color: #ffffff; }
+
+/* Links readable on photo backgrounds */
+a { color: #ffffff; text-decoration: underline; }
+a:hover, a:focus { color: #ffffff; text-decoration: none; }
+
+/* Quarto navbar & footer on this page */
+.navbar, .navbar .navbar-brand, .navbar .nav-link,
+.nav-footer, .nav-footer a {
+  color: #ffffff !important;
+}
+
+/* Trestles left column already gets a translucent dark bg in your home.css;
+   ensure its text stays white too */
+.quarto-about-trestles .about-entity { color: #ffffff; }
+
+/* Optional: code blocks / inline code if you show any on home */
+code, pre, kbd, samp { color: #ffffff; }
+
+/* 1) Bootstrap variables so most components inherit white */
+:root {
+  --bs-link-color: #ffffff;
+  --bs-link-hover-color: #ffffff;
+}
+
+/* 2) Explicit anchor states (covers anything not using vars) */
+a, a:link, a:visited { color: #ffffff; }
+a:hover, a:focus, a:active { color: #ffffff; opacity: .9; text-decoration: none; }
+
+/* 3) Navbar: override Bootswatch/Bootstrap link colors */
+.navbar {
+  --bs-navbar-color: #ffffff;
+  --bs-navbar-hover-color: #ffffff;
+  --bs-navbar-brand-color: #ffffff;
+  --bs-navbar-brand-hover-color: #ffffff;
+}
+.navbar .nav-link,
+.navbar .navbar-brand { color: #ffffff !important; }
+
+/* 4) Footer links */
+.nav-footer,
+.nav-footer a { color: #ffffff !important; }
+
+/* 5) Links inside the trestles left column (bio/social) */
+.quarto-about-trestles .about-entity a { color: #ffffff; }
+.quarto-about-trestles .about-entity a:hover { color: #ffffff; text-decoration: underline; }
+
+/* (Optional) If you use .btn-link anywhere, keep it white too */
+.btn-link { color: #ffffff; }

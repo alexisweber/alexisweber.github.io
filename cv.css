@@ -1,0 +1,22 @@
+/* Grey background for the CV page */
+body { background: #B8AFAE; }
+
+/* Ensure title/subtitle show white on the banner image */
+.quarto-title-block .quarto-title-banner { color: #fff; }
+
+/* Optional: add a soft dark overlay for readability */
+.quarto-title-block .quarto-title-banner {
+  position: relative;
+  padding: 4rem 1rem; /* adjust banner height */
+}
+.quarto-title-block .quarto-title-banner::before {
+  content: "";
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;   /* no 'inset' to avoid linter warnings */
+  background: #B8AFAE;
+}
+/* keep text above the overlay */
+.quarto-title-block .quarto-title-banner .title,
+.quarto-title-block .quarto-title-banner .subtitle {
+  position: relative;
+}
