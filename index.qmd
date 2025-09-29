@@ -1,11 +1,23 @@
 ---
-title: "alexisweber.github.io"
+title: "Alexis Weber, Ph.D."
+image: media/headshot1.png
+toc: false
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/alexisweberucla/
+    - text: GitHub
+      href: https://github.com/alexisweber
+format:
+  html:
+    css: home.css    
 ---
 
-This is a Quarto website.
+Computational scientist
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+About
 
-```{r}
-1 + 1
-```
+I implement combinatorial approaches to analyze differential gene regulation networks with multiomic methods. I earned my Ph.D. in Human Genetics from UCLA in 2025, generating an in vitro and in vivo, multiomic atlas of Ts21 neocortex. I am skilled in computational science, biostatistics, machine learning, neuroscience, genetics and genomics.
