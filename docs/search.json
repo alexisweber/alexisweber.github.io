@@ -5,5 +5,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#human-genetics-computational-scientist",
+    "href": "index.html#human-genetics-computational-scientist",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Human Genetics Computational Scientist",
+    "text": "Human Genetics Computational Scientist"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "About",
+    "text": "About\nI implement combinatorial approaches to analyze differential gene regulation networks with multiomic methods. I earned my Ph.D. in Human Genetics from UCLA in 2025, generating an in vitro and in vivo, multiomic atlas of Ts21 neocortex. I am skilled in computational science, biostatistics, machine learning, neuroscience, genetics and genomics."
   }
 ]

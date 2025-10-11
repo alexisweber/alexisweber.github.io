@@ -23,14 +23,6 @@ body {
   padding: 1rem 1.25rem;
   box-shadow: 0 10px 30px rgba(0,0,0,.15);
 }
-
-/* Reusable translucent panel for any section */
-.glass{
-  background: rgba(0,0,0,.35);
-  border-radius: 16px;
-  padding: 1rem 1.25rem;
-  box-shadow: 0 10px 30px rgba(0,0,0,.15);
-}
 .glass :is(h1,h2,h3,h4,h5,h6):first-child { margin-top: .2rem; }
 
 /* Navbar & footer (themes often hardcode these) */

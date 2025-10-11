@@ -1,1 +1,46 @@
-/* css styles */
+/* Full-page background image */
+body {
+  background:
+    linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)),
+    url("media/bckgrnd4.png") center / cover no-repeat fixed;
+}
+
+/* Readability for the trestles left column over the photo */
+.quarto-about-trestles .about-entity {
+  background: rgba(0,0,0,.35);
+  color: #fff;
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+}
+
+/* Anchor offset so headings aren't hidden by a fixed navbar */
+.anchored { scroll-margin-top: 80px; }
+
+/* Reusable translucent panel for any section */
+.glass{
+  background: rgba(0,0,0,.35);
+  border-radius: 16px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,.15);
+}
+.glass :is(h1,h2,h3,h4,h5,h6):first-child { margin-top: .2rem; }
+
+/* Navbar & footer (themes often hardcode these) */
+.navbar{
+  --bs-navbar-color:#fff;
+  --bs-navbar-hover-color:#fff;
+  --bs-navbar-brand-color:#fff;
+  --bs-navbar-brand-hover-color:#fff;
+}
+.navbar .nav-link,
+.navbar .navbar-brand{ color:#fff !important; }
+.nav-footer, .nav-footer a{ color:#fff !important; }
+
+
+/* keep the headshot circular with a subtle ring everywhere */
+about-image {
+  border-radius: 50%;
+  border: 4px solid rgba(255,255,255,.85);
+}
+.project-actions .btn { margin-right: .5rem; margin-bottom: .5rem; }
+
