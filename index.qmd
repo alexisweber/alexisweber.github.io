@@ -19,4 +19,14 @@ format:
     css:
       - styles.css     # load global first
     smooth-scroll: true
----    
+---  
+
+## 
+
+## Human Genetics Computational Scientist {.unlisted .unnumbered}
+
+## About {#about}
+
+I implement combinatorial approaches to analyze differential gene regulation networks with multiomic methods. I earned my Ph.D. in Human Genetics from UCLA in 2025, generating an in vitro and in vivo, multiomic atlas of Ts21 neocortex. I am skilled in computational science, biostatistics, machine learning, neuroscience, genetics and genomics.
+
+
