@@ -24,7 +24,7 @@ format:
 
 ## 
 
-## Human Genetics Computational Scientist {.unlisted .unnumbered}
+## Human Genetics Computational Scientist {.unlisted .unnumbered .text-white}
 
 ## About {#about .glass}
 
