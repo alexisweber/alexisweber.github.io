@@ -7,6 +7,27 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "projects/project2/index.html",
+    "href": "projects/project2/index.html",
+    "title": "Trisomy 21 Neocortical Multiomic Atlas",
+    "section": "",
+    "text": "Launch App ↗ GitHub ↗ Publication ↗\n\n\n\n\n\n\n\nTs21 Neocortical NPC Multiome Atlas\n\n\n\nA single-nuclei multiomic (GEX + ATAC), gene regulatory atlas of Ts21 and matched control neocorticex-derived, primary human neural progenitor cells (phNPC), differentiated into neurons (4 weeks).\n\n\n\nHighlights\n\nCell-specific gene expression (GEX)\nCell-specific chromatin accessibility (ATAC)\nCell-specific molecular mechanisms\n\n\n\nTech\n\nQuarto, Shiny (or Streamlit), Seurat/Scanpy, etc."
+  },
+  {
+    "objectID": "projects/project1/index.html",
+    "href": "projects/project1/index.html",
+    "title": "Trisomy 21 Multi-omic Atlas",
+    "section": "",
+    "text": "Launch App ↗ GitHub ↗ Publication ↗\n\n\n\n\n\n\n\nTs21 Neocortical Multiome Atlas\n\n\n\nA single-nuclei multiomic (GEX + ATAC), gene regulatory atlas of Ts21 and matched control neocortical samples.\n\n\n\nHighlights\n\nCell-specific gene expression (GEX)\nCell-specific chromatin accessibility (ATAC)\nCell-specific molecular mechanisms\n\n\n\nTech\n\nQuarto, Shiny (or Streamlit), Seurat/Scanpy, etc."
+  },
+  {
+    "objectID": "projects/project3/index.html",
+    "href": "projects/project3/index.html",
+    "title": "Neurodevelopmental Cell Annotation",
+    "section": "",
+    "text": "Launch App ↗ GitHub ↗ Publication ↗\n\n\n\n\n\n\n\nNeurodevelopmental Cell Annotation Transformer\n\n\n\nMachine learning transformer trained on neurodevelopmental datasets to annotate cell-types spanning regions and gestation weeks.\n\n\n\nHighlights\n\nInput GEX or gene activities\nOutput neurodevelopmental cell-type predictions\n\n\n\nTech\n\nQuarto, Shiny (or Streamlit), Python"
+  },
+  {
     "objectID": "index.html#human-genetics-computational-scientist",
     "href": "index.html#human-genetics-computational-scientist",
     "title": "Alexis Weber, Ph.D.",
@@ -26,5 +47,47 @@
     "title": "Alexis Weber, Ph.D.",
     "section": "Skills",
     "text": "Skills\n\n\n Languages\n\nR · Python · Bash · CSS · HTML\nSingle-cell analysis, pipeline automation, reproducible workflows\n\n\n\n Frameworks\n\nSeurat · Signac · Monocle3 · CellChat · SCENIC+ · glmmTMB · lme4\nMulti-omic integration, trajectory, interaction and GRN inference, mixed-model statistics\n\n\n\n Data Analytics\n\nMultiomics · Biostatistics · Machine Learning\nIntegrative modeling, visualization, pattern discovery\n\n\n\n Experimental Lab Work\n\nGenetics & Genomics · Neuroscience · Neurodevelopment\nHuman cortical development, cell-type characterization, imaging"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Projects",
+    "text": "Projects\n\n\n\n\n\n\nTs21 Neocortical Multiome Atlas\n\n\n\n\n\n\n\nTs21 NPC Multiome Atlas\n\n\n\n\n\n\n\nNeurodevelopmental Cell Predictor"
+  },
+  {
+    "objectID": "index.html#publication",
+    "href": "index.html#publication",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Publication",
+    "text": "Publication"
+  },
+  {
+    "objectID": "index.html#certificates",
+    "href": "index.html#certificates",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Certificates",
+    "text": "Certificates"
+  },
+  {
+    "objectID": "index.html#education-experience",
+    "href": "index.html#education-experience",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Education & Experience",
+    "text": "Education & Experience"
+  },
+  {
+    "objectID": "index.html#teaching-mentorship",
+    "href": "index.html#teaching-mentorship",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Teaching & Mentorship",
+    "text": "Teaching & Mentorship"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Contact",
+    "text": "Contact"
   }
 ]

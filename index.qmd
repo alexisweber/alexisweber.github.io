@@ -16,6 +16,7 @@ format:
   html:
     include-in-header: 
       - file: media/bi-icons.html
+    include-after-body: partials/_project-modals.html
     css:
       - styles.css     # load global first
     smooth-scroll: true
@@ -32,3 +33,17 @@ I’m a computational biologist with deep expertise in multi-omic neuroscience a
 ## Skills {#skills .glass}
 
 {{< include partials/_skills-body.md >}}
+
+## Projects {#projects .glass}
+{{< include partials/_projects.md >}}
+
+## Publication {#publication .glass}
+
+## Certificates
+
+## Education & Experience
+
+## Teaching & Mentorship
+
+## Contact
+

@@ -1,0 +1,29 @@
+---
+title: "Trisomy 21 Neocortical Multiomic Atlas"
+subtitle: "Interactive single-cell atlas"
+date: 2025-09-01
+image: ../../media/Ts21InvivoAtlas_v3.png
+#title-block-banner: "../../media/atlas-hero.jpg" 
+categories: [single-cell, app]
+page-layout: article
+---
+
+::: mb-3
+[Launch App ↗](https://your-app.example){.btn .btn-primary target="_blank" rel="noopener"} [GitHub ↗](https://github.com/you/atlas){.btn .btn-secondary target="_blank" rel="noopener"} [Publication ↗](https://doi.org/xx.xxxx/xxxx){.btn .btn-outline-dark target="_blank" rel="noopener"}
+:::
+
+::: callout-note
+#### Ts21 Neocortical NPC Multiome Atlas
+
+A single-nuclei multiomic (GEX + ATAC), gene regulatory atlas of Ts21 and matched control neocorticex-derived, primary human neural progenitor cells (phNPC), differentiated into neurons (4 weeks).
+:::
+
+### Highlights
+
+-   Cell-specific gene expression (GEX)
+-   Cell-specific chromatin accessibility (ATAC)
+-   Cell-specific molecular mechanisms
+
+### Tech
+
+-   Quarto, Shiny (or Streamlit), Seurat/Scanpy, etc.

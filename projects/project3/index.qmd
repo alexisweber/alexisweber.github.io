@@ -1,0 +1,27 @@
+---
+title: "Neurodevelopmental Cell Annotation"
+subtitle: "Annotation AI"
+date: 2025-09-01
+image: ../../media/NeuroDevCells.png
+categories: [single-cell, app]
+page-layout: article
+---
+
+::: mb-3
+[Launch App ↗](https://your-app.example){.btn .btn-primary target="_blank" rel="noopener"} [GitHub ↗](https://github.com/you/atlas){.btn .btn-secondary target="_blank" rel="noopener"} [Publication ↗](https://doi.org/xx.xxxx/xxxx){.btn .btn-outline-dark target="_blank" rel="noopener"}
+:::
+
+::: callout-note
+#### Neurodevelopmental Cell Annotation Transformer
+
+Machine learning transformer trained on neurodevelopmental datasets to annotate cell-types spanning regions and gestation weeks.
+:::
+
+### Highlights
+
+-   Input GEX or gene activities
+-   Output neurodevelopmental cell-type predictions
+
+### Tech
+
+-   Quarto, Shiny (or Streamlit), Python

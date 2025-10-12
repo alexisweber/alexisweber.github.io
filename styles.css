@@ -115,5 +115,51 @@ about-image {
   box-shadow: 0 2px 10px rgba(0,0,0,.35);
 }
 
+/* PROJECT SECTION */
 
+/* Make cards feel clicky & balanced */
+.project-card {
+  transition: transform .12s ease, box-shadow .12s ease;
+  cursor: pointer;
+}
+.project-card:focus {
+  outline: 2px solid var(--bs-primary);
+  outline-offset: 2px;
+}
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
 
+/* Keep icons nicely sized on all screens */
+.project-icon {
+  object-fit: contain;
+  height: 140px; /* tweak if needed */
+}
+
+/* Ensure readable text in dark mode cards */
+.card {
+  background-clip: border-box;
+}
+
+/* Make the Projects section title text white */
+#projects,
+#projects h2 {
+  color: #fff;
+}
+
+/* Make sure the modal sits above the backdrop */
+.modal { z-index: 1060; }
+.modal-backdrop { z-index: 1050; }
+
+/* Give modals an opaque background so they don't look "dimmed" */
+.modal-content { background-color: var(--bs-modal-bg, #fff); }
+
+/* Keep the preview image small in the modal */
+.project-hero { max-height: 180px; width: auto; }
+
+/* Add right padding so last card isn't flush with the edge when scrolling */
+.row.flex-nowrap { padding-right: .5rem; }
+
+/* keep nowrap rows from shrinking columns */
+.row.flex-nowrap > [class*="col-"] { flex: 0 0 auto; }
