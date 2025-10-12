@@ -18,6 +18,13 @@
     "href": "index.html#about",
     "title": "Alexis Weber, Ph.D.",
     "section": "About",
-    "text": "About\nI implement combinatorial approaches to analyze differential gene regulation networks with multiomic methods. I earned my Ph.D. in Human Genetics from UCLA in 2025, generating an in vitro and in vivo, multiomic atlas of Ts21 neocortex. I am skilled in computational science, biostatistics, machine learning, neuroscience, genetics and genomics."
+    "text": "About\nI’m a computational biologist with deep expertise in multi-omic neuroscience and genetics, strong analytical and software skills, and a record of scientific productivity and mentorship"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Skills",
+    "text": "Skills\n\n\n Languages\n\nR · Python · Bash · CSS · HTML\nSingle-cell analysis, pipeline automation, reproducible workflows\n\n\n\n Frameworks\n\nSeurat · Signac · Monocle3 · CellChat · SCENIC+ · glmmTMB · lme4\nMulti-omic integration, trajectory, interaction and GRN inference, mixed-model statistics\n\n\n\n Data Analytics\n\nMultiomics · Biostatistics · Machine Learning\nIntegrative modeling, visualization, pattern discovery\n\n\n\n Experimental Lab Work\n\nGenetics & Genomics · Neuroscience · Neurodevelopment\nHuman cortical development, cell-type characterization, imaging"
   }
 ]

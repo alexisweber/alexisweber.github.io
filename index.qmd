@@ -25,8 +25,10 @@ format:
 
 ## Human Genetics Computational Scientist {.unlisted .unnumbered}
 
-## About {#about}
+## About {#about .glass}
 
-I implement combinatorial approaches to analyze differential gene regulation networks with multiomic methods. I earned my Ph.D. in Human Genetics from UCLA in 2025, generating an in vitro and in vivo, multiomic atlas of Ts21 neocortex. I am skilled in computational science, biostatistics, machine learning, neuroscience, genetics and genomics.
+I’m a computational biologist with deep expertise in multi-omic neuroscience and genetics, strong analytical and software skills, and a record of scientific productivity and mentorship
 
+## Skills {#skills .glass}
 
+{{< include partials/_skills-body.md >}}

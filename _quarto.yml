@@ -15,8 +15,10 @@ format:
     theme:
       - cosmo
       - brand
-    css: styles.css
+    css: 
+      - styles.css
+      - media/icons/bootstrap-icons.css  
     toc: true
-
+    
 
 
