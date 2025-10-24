@@ -1,6 +1,6 @@
 ---
 title: "Alexis Weber, Ph.D."
-image: media/Weber2_v1_crop
+image: media/Weber2_v1_crop.png
 about: 
   template: trestles
   id: about
