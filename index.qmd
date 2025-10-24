@@ -1,6 +1,6 @@
 ---
 title: "Alexis Weber, Ph.D."
-image: media/headshot1.png
+image: media/Weber2_v1_crop
 about: 
   template: trestles
   id: about
@@ -37,7 +37,8 @@ I’m a computational biologist with deep expertise in multi-omic neuroscience a
 ## Projects {#projects .glass}
 {{< include partials/_projects.md >}}
 
-## Publication {#publication .glass}
+## Publication {#publication .glass .text-white}
+{{< include partials/_publication.qmd >}}
 
 ## Certificates
 
@@ -46,4 +47,8 @@ I’m a computational biologist with deep expertise in multi-omic neuroscience a
 ## Teaching & Mentorship
 
 ## Contact
+
+## News
+
+#links need to be white, add publication with screenshot, add certificates cards with description, add timeline, github api 
 

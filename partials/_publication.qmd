@@ -1,0 +1,19 @@
+---
+---
+
+::: {.container .px-0}
+::: {.vstack .gap-4}
+
+::: {.d-flex .align-items-start .gap-3 .pub-item}
+
+
+[![Figure 1A](media/pubScreenshot.png)](https://www.biorxiv.org/content/10.1101/2025.06.30.662136v1)
+
+::: {.flex-grow-1}
+
+**Weber, A.** et al. “A single-cell multi-omic analysis identifies molecular and gene-regulatory mechanisms dysregulated in the developing Down syndrome neocortex.” *Science* (in revision, 2025).
+
+[View publication](https://www.biorxiv.org/content/10.1101/2025.06.30.662136v1){.btn .btn-sm .btn-outline-secondary target="_blank" rel="noopener"}
+
+:::
+:::
