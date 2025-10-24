@@ -38,8 +38,8 @@
     "objectID": "index.html#about",
     "href": "index.html#about",
     "title": "Alexis Weber, Ph.D.",
-    "section": "About",
-    "text": "About\nI’m a computational biologist with deep expertise in multi-omic neuroscience and genetics, strong analytical and software skills, and a record of scientific productivity and mentorship"
+    "section": "Hi, I’m Alexis!",
+    "text": "Hi, I’m Alexis!\nI’m a computational biologist with deep expertise in multi-omic neuroscience and genetics, strong analytical and software skills, and a record of scientific productivity and mentorship"
   },
   {
     "objectID": "index.html#skills",
@@ -60,7 +60,7 @@
     "href": "index.html#publication",
     "title": "Alexis Weber, Ph.D.",
     "section": "Publication",
-    "text": "Publication\n\n\n\n\n\n\nFigure 1A\n\n\n\nWeber, A. et al. “A single-cell multi-omic analysis identifies molecular and gene-regulatory mechanisms dysregulated in the developing Down syndrome neocortex.” Science (in revision, 2025).\nView publication\n\n\n\nCertificates\n\n\nEducation & Experience\n\n\nTeaching & Mentorship\n\n\nContact\n\n\nNews\n#links need to be white, add publication with screenshot, add certificates cards with description, add timeline, github api"
+    "text": "Publication\n\n\n\n\n\n\nFigure 1A\n\n\n\nWeber, A. et al. “A single-cell multi-omic analysis identifies molecular and gene-regulatory mechanisms dysregulated in the developing Down syndrome neocortex.” Science (in revision, 2025).\nView publication\n\n\n\nCertificates\n\n\n Fundamentals of AI/ML in Precision Medicine\n\nStanford Data Ocean, Stanford University\nBuilding un/supervised models, neural networks, and transformers with machine learning for biomedical analysis in Python\n\n\n\n Fundamentals of Data Science in Precision Medicine and Cloud Computing\n\nStanford Data Ocean, Stanford University\nBiostatistical and bioinformatic analysis, using AWS and Python\n\n\n\n UCLA Biosciences Leadership Series\n\nGraduate Program in Biosciences, UCLA\nEffective communication, project management, teamwork and research self-efficacy\n\n\n\n Entering Mentorship Training\n\nCenter for Integration of Teaching, Research and Learning, UCLA\nEvidence based teaching strategies and mentorship in STEM\n\n\n\n\n\nEducation & Experience\n\n\nTeaching & Mentorship\n\n\nContact\n\n\nNews\n#links need to be white, add timeline, github api"
   },
   {
     "objectID": "index.html#certificates",
@@ -95,7 +95,7 @@
     "href": "index.html#news",
     "title": "Alexis Weber, Ph.D.",
     "section": "News",
-    "text": "News\n#links need to be white, add publication with screenshot, add certificates cards with description, add timeline, github api"
+    "text": "News\n#links need to be white, add timeline, github api"
   },
   {
     "objectID": "index.html#references",
@@ -103,5 +103,12 @@
     "title": "Alexis Weber, Ph.D.",
     "section": "References",
     "text": "References\n\n\n1. A. Weber, N. M. Celine Vuong Patrick Seong, A single cell multi-omic analysis identifies molecular and gene-regulatory mechanisms dysregulated in the developing down syndrome neocortex. bioRxiv 10 (2025)."
+  },
+  {
+    "objectID": "index.html#cert",
+    "href": "index.html#cert",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Certificates",
+    "text": "Certificates\n\n\n Fundamentals of AI/ML in Precision Medicine\n\nStanford Data Ocean, Stanford University\nBuilding un/supervised models, neural networks, and transformers with machine learning for biomedical analysis in Python\n\n\n\n Fundamentals of Data Science in Precision Medicine and Cloud Computing\n\nStanford Data Ocean, Stanford University\nBiostatistical and bioinformatic analysis, using AWS and Python\n\n\n\n UCLA Biosciences Leadership Series\n\nGraduate Program in Biosciences, UCLA\nEffective communication, project management, teamwork and research self-efficacy\n\n\n\n Entering Mentorship Training\n\nCenter for Integration of Teaching, Research and Learning, UCLA\nEvidence based teaching strategies and mentorship in STEM"
   }
 ]

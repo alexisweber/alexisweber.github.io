@@ -26,7 +26,7 @@ format:
 
 ## Human Genetics Computational Scientist {.unlisted .unnumbered .text-white}
 
-## About {#about .glass}
+## Hi, I'm Alexis! {#about .glass}
 
 I’m a computational biologist with deep expertise in multi-omic neuroscience and genetics, strong analytical and software skills, and a record of scientific productivity and mentorship
 
@@ -40,7 +40,9 @@ I’m a computational biologist with deep expertise in multi-omic neuroscience a
 ## Publication {#publication .glass .text-white}
 {{< include partials/_publication.qmd >}}
 
-## Certificates
+## Certificates {#cert .glass}
+
+{{< include partials/_cert-body.md >}}
 
 ## Education & Experience
 
@@ -50,5 +52,5 @@ I’m a computational biologist with deep expertise in multi-omic neuroscience a
 
 ## News
 
-#links need to be white, add publication with screenshot, add certificates cards with description, add timeline, github api 
+#links need to be white, add timeline, github api 
 
