@@ -3,7 +3,10 @@ body {
   background:
     linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)),
     url("media/bckgrnd4.png") center / cover no-repeat fixed;
+  font-family: "Inter", system-ui, sans-serif;
 }
+
+:root { --accent: #0d6efd; }
 
 /* Readability for the trestles left column over the photo */
 .quarto-about-trestles .about-entity {
@@ -13,10 +16,38 @@ body {
   padding: 1rem 1.25rem;
 }
 
-/* Anchor offset so headings aren't hidden by a fixed navbar */
+/* Anchor offset headings independent of navbar */
 .anchored { scroll-margin-top: 80px; }
 
-/* Reusable translucent panel for any section */
+/* Card class style class */
+.card {
+  background: var(--card-bg, rgba(0,0,0,0.04));
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  transition: transform .18s ease, box-shadow .18s ease;
+  font-size: 1.05em;
+  margin-right: .4rem;
+  position: relative; top: 1px;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.10);
+}
+
+.card h3 { margin-top: 0; margin-bottom: 0.35rem; }
+.card h3 .bi { color: var(--accent); }
+.card p, .skill-card ul { margin: 0; }
+
+.card .bi { 
+  font-size: 1.05em;
+  margin-right: .4rem;
+  position: relative; top: 1px;
+}
+
+/* Glass style panel */
 .glass{
   background: rgba(0,0,0,.35);
   border-radius: 16px;
@@ -25,7 +56,7 @@ body {
 }
 .glass :is(h1,h2,h3,h4,h5,h6):first-child { margin-top: .2rem; }
 
-/* Navbar & footer (themes often hardcode these) */
+/* Navbar & footer  */
 .navbar{
   --bs-navbar-color:#fff;
   --bs-navbar-hover-color:#fff;
@@ -53,11 +84,7 @@ body {
   font-display: swap;
 }
 
-/* Apply Fonts */
 
-body {
-  font-family: "Inter", system-ui, sans-serif;
-}
 
 /* ABOUT SECTION */
 
@@ -73,7 +100,7 @@ body {
 
 
 /* keep the headshot circular with a subtle ring everywhere */
-about-image {
+.about-image {
   border-radius: 50%;
   border: 4px solid rgba(255,255,255,.85);
 }
@@ -91,33 +118,7 @@ about-image {
   margin-top: 0.75rem;
 }
 
-.skill-card {
-  background: var(--card-bg, rgba(0,0,0,0.04));
-  border: 1px solid rgba(0,0,0,0.08);
-  border-radius: 14px;
-  padding: 1rem 1.1rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-  transition: transform .18s ease, box-shadow .18s ease;
-  font-size: 1.05em;
-  margin-right: .4rem;
-  position: relative; top: 1px;
-}
 
-.skill-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.10);
-}
-
-.skill-card h3 { margin-top: 0; margin-bottom: 0.35rem; }
-.skill-card p, .skill-card ul { margin: 0; }
-
-.skill-card .bi { 
-  font-size: 1.05em;
-  margin-right: .4rem;
-  position: relative; top: 1px;
-}
-:root { --accent: #0d6efd; }
-.skill-card h3 .bi { color: var(--accent); }
 
 /* Make the Skills section title and all text in its cards white */
 #skills,
@@ -205,33 +206,6 @@ about-image {
   margin-top: 0.75rem;
 }
 
-.cert-card {
-  background: var(--card-bg, rgba(0,0,0,0.04));
-  border: 1px solid rgba(0,0,0,0.08);
-  border-radius: 10px;
-  padding: 1rem 1.1rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-  transition: transform .18s ease, box-shadow .18s ease;
-  font-size: 1em;
-  margin-right: .4rem;
-  position: relative; top: 1px;
-}
-
-.cert-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.10);
-}
-
-.cert-card h3 { margin-top: 0; margin-bottom: 0.35rem; }
-.cert-card p, .cert-card ul { margin: 0; }
-
-.cert-card .bi { 
-  font-size: 0.8em;
-  margin-right: .3rem;
-  position: relative; top: 1px;
-}
-:root { --accent: #0d6efd; }
-.cert-card h3 .bi { color: var(--accent); }
 
 /* Make the Skills section title and all text in its cards white */
 #cert,
