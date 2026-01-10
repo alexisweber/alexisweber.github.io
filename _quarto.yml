@@ -1,15 +1,29 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - "media/weber_curriculumvitae.pdf"
 
 website:
   title: "alexisweber.github.io"
   navbar:
+    background: dark
+    title: false
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+      - text: About
+        href: "#about"
+      - text: Skills
+        href: "#skills"
+      - text: Projects
+        href: "#projects"
+      - text: Pubs
+        href: "#pubs"
+      - text: Certificates
+        href: "#certificates"
+      - text: Timeline
+        href: "#timeline"
+      - text: News
+        href: "#news"
 format:
   html:
     theme:
@@ -18,7 +32,20 @@ format:
     css: 
       - styles.css
       - media/icons/bootstrap-icons.css  
-    toc: true
+    toc: false
+about: 
+  template: trestles
+  id: about
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: "<span class='about-icon-btn' aria-label='LinkedIn'><i class='bi bi-linkedin'></i></span>"
+      href: https://www.linkedin.com/in/alexiswebercompbio/
+    - text: "<span class='about-icon-btn' aria-label='GitHub'><i class='bi bi-github'></i></span>"
+      href: https://github.com/alexisweber
+    - text: "<i class='bi bi-file-earmark-text'></i>"
+      href: media/weber_curriculumvitae.pdf
+      #download: true
     
 
 
