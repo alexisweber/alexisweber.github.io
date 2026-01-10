@@ -4,7 +4,8 @@
 
 ::: {.flex-shrink-0 style="width:15rem"}
 
-::: {.card .h-100 .project-card role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#projectModal1" aria-label="Open Project 1 details"}
+::: {.h-100 .project-card .ui-card role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#projectModal1" aria-label="Open Project 1 details"}
+
 ![](media/Ts21InvivoAtlas_v3.png){.card-img-top .p-4 .project-icon alt="Project 1 icon"}
 
 ::: {.card-body .text-center}
@@ -17,7 +18,8 @@
 
 ::: {.flex-shrink-0 style="width:15rem"}
 
-::: {.card .h-100 .project-card role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#projectModal2" aria-label="Open Project 2 details"}
+::: {.h-100 .project-card .ui-card role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#projectModal2" aria-label="Open Project 2 details"}
+
 ![](media/Ts21InvitroAtlas_v1.png){.card-img-top .p-4 .project-icon alt="Project 2 icon"}
 
 ::: {.card-body .text-center}
@@ -30,7 +32,8 @@
 
 ::: {.flex-shrink-0 style="width:15rem"}
 
-::: {.card .h-100 .project-card role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#projectModal3" aria-label="Open Project 3 details"}
+::: {.h-100 .project-card .ui-card role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#projectModal3" aria-label="Open Project 3 details"}
+
 ![](media/NeuroDevCells.png){.card-img-top .p-4 .project-icon alt="Project 3 icon"}
 
 ::: {.card-body .text-center}
