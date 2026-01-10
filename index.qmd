@@ -18,7 +18,18 @@ format:
       - file: media/bi-icons.html
     include-after-body: partials/_project-modals.html
     css:
-      - styles.css     # load global first
+      - styles/00var.css
+      - styles/01base.css
+      - styles/02typ.css
+      - styles/03navbar-footer.css
+      - styles/04util.css
+      - styles/10about.css
+      - styles/20skills.css
+      - styles/30proj.css
+      - styles/40pub.css
+      - styles/50cert.css
+      - styles/60edu.css
+      - styles/90news.css
     smooth-scroll: true
 ---  
 
@@ -28,7 +39,7 @@ format:
 
 ## Hi, I'm Alexis! {#about .glass}
 
-I’m a computational biologist with deep expertise in multi-omic neuroscience and genetics, strong analytical and software skills, and a record of scientific productivity and mentorship
+I’m a computational biologist with deep expertise in multi-omic neuroscience and genomics, strong analytical and software skills, and a record of scientific productivity and mentorship
 
 ## Skills {#skills .glass}
 
@@ -44,13 +55,14 @@ I’m a computational biologist with deep expertise in multi-omic neuroscience a
 
 {{< include partials/_cert-body.md >}}
 
-## Education & Experience
+## Education & Experience {#education .glass}
+
+{{< include partials/_education.md >}}
 
 ## Teaching & Mentorship
 
 ## Contact
 
 ## News
-
-#links need to be white, add timeline, github api 
+{{< include partials/_news.md >}}
 
