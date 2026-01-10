@@ -26,3 +26,22 @@
   margin-right: .5rem;
   margin-bottom: .5rem;
 }
+
+/* about section icon links */
+.quarto-about-trestles .about-links a {
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+/* icon size + color */
+.quarto-about-trestles .about-links i.bi {
+  font-size: 1.6rem;  
+  color: #ffffff;   
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+/* responsive hover */
+.quarto-about-trestles .about-links a:hover i.bi {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
