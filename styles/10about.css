@@ -1,0 +1,28 @@
+/* Trestles left column over the photo readability */
+.quarto-about-trestles .about-entity{
+  background: var(--glass-bg);
+  color: #fff;
+  border-radius: var(--glass-radius);
+  padding: var(--glass-pad-y) var(--glass-pad-x);
+}
+
+/* About section white font */
+#about,
+#about h2,
+#about h3,
+#about p,
+#about em,
+#about li{
+  color:#fff;
+}
+
+/* keep the headshot circular with a subtle ring */
+.about-image{
+  border-radius: 50%;
+  border: 4px solid rgba(255,255,255,.85);
+}
+
+.project-actions .btn{
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+}

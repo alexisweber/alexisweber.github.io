@@ -1,0 +1,196 @@
+/* timeline section */
+.edu-timeline{
+  position: relative;
+  display: grid;
+  gap: 2.25rem;
+  padding: 0.5rem 0;
+}
+
+/* center vertical line */
+.edu-timeline::before{
+  z-index: 2; /* center line layer 2 */
+  position: relative;
+  top: 0.75rem; /* connect to padding */
+  bottom: 1.25rem; /* connect to padding */
+  /* position: absolute; */
+  /* top: 0; */
+  /* bottom: 0; */
+  display: grid;
+  gap: 2.25rem;
+  padding: 0.75rem 0 1.25rem; 
+  content: "";
+  left: 50%;
+  width: 2px;
+  transform: translateX(-50%);
+  background: rgba(255,255,255,0.22); 
+}
+
+
+/* timeline item */
+.edu-item{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 1px;
+}
+
+/* timeline dots */
+.edu-dot{
+  z-index: 3; /* dots top layer */
+  position: absolute;
+  left: 50%;
+  top: 1.25rem;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: #ffffff;
+  box-shadow: 0 0 0 6px rgba(255,255,255,0.12);
+}
+
+/* edu card base */
+.edu-card{
+  /* width: min(520px, 90%); */
+  z-index: 1; /* card bottom layer */
+  width: min(460px, 85%);
+  position: relative;
+  display: block;
+}
+
+.edu-card.ui-card{
+  padding: 0.85rem 0.95rem;
+}
+
+/* responsive hover */
+.edu-card:hover{
+  transform: translateY(-4px) scale(1.01);
+}
+
+/* Alternating placement */
+.edu-item.right .edu-card{
+  margin-left: calc(50% + 28px);
+}
+
+.edu-item.left .edu-card{
+  margin-right: calc(50% + 28px);
+  margin-left: auto;
+}
+
+/* “branch” connector */
+.edu-item.right .edu-card::before,
+.edu-item.left .edu-card::before{
+  z-index: 2; /* branch line layer 2 */
+  content: "";
+  position: absolute;
+  top: 1.55rem;
+  width: 26px;
+  height: 2px;
+  background: rgba(255,255,255,0.35);
+}
+
+.edu-item.right .edu-card::before{
+  left: -26px;
+}
+
+.edu-item.left .edu-card::before{
+  right: -26px;
+}
+
+/* Themes */
+.edu-card--light{
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.edu-card--dark{
+  background: #0b0b0c;
+  color: #ffffff;
+}
+
+/* Top row layout */
+.edu-card__top{
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Square icon */
+.edu-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: block;
+}
+
+.edu-title{
+  font-weight: 800;
+  font-size: 1.04rem;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.edu-subtitle{
+  font-weight: 500;
+  font-size: 0.92rem;
+  opacity: 0.85;
+  margin-top: 4px;
+}
+
+.edu-desc{
+  margin: 0.35rem 0 0.75rem 0;
+  font-size: 0.96rem;
+  line-height: 1.45;
+  opacity: 0.92;
+}
+
+/* Link in white for both themes (as requested) */
+.edu-link{
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 650;
+  display: inline-block;
+  border-bottom: 1px solid rgba(255,255,255,0.35);
+  padding-bottom: 2px;
+}
+
+.edu-link:hover{
+  border-bottom-color: rgba(255,255,255,0.75);
+}
+
+/* Light cards: keep link white but readable via dark pill */
+.edu-card--light .edu-link{
+  background: rgba(15, 23, 42, 0.92);
+  border-radius: 999px;
+  padding: 6px 10px;
+  border-bottom: none;
+}
+
+/* Responsive: stack to one side and move line left */
+@media (max-width: 860px){
+  .edu-timeline::before{
+    left: 18px;
+    transform: none;
+  }
+
+  .edu-dot{
+    left: 18px;
+    transform: none;
+  }
+
+  .edu-item.right .edu-card,
+  .edu-item.left .edu-card{
+    margin-left: 46px;
+    margin-right: 0;
+    width: min(620px, calc(100% - 56px));
+  }
+
+  .edu-item.right .edu-card::before,
+  .edu-item.left .edu-card::before{
+    left: -28px;
+    right: auto;
+    width: 28px;
+  }
+}

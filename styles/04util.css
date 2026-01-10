@@ -1,0 +1,40 @@
+/* Anchor offset headings independent of navbar */
+.anchored{ scroll-margin-top: 80px; }
+
+/* glass panel translucent */
+.glass{
+  background: var(--glass-bg);
+  border-radius: var(--glass-radius);
+  padding: var(--glass-pad-y) var(--glass-pad-x);
+  box-shadow: var(--glass-shadow);
+}
+
+.glass :is(h1,h2,h3,h4,h5,h6):first-child{
+  margin-top: .2rem;
+}
+
+/* Card base used for skills, cert, timeline */
+
+.ui-card{
+  background: var(--card-dark-bg);
+  border: 1px solid var(--card-dark-border);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  box-shadow: var(--card-dark-shadow);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.ui-card:hover{
+  transform: var(--lift);
+  box-shadow: 0 6px 16px rgba(0,0,0,.35);
+}
+
+.ui-card h3{
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+}
+
+.ui-card p,
+.ui-card ul{
+  margin: 0;
+}

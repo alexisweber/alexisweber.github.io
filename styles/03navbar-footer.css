@@ -1,0 +1,17 @@
+/* Navbar & footer */
+.navbar{
+  --bs-navbar-color:#fff;
+  --bs-navbar-hover-color:#fff;
+  --bs-navbar-brand-color:#fff;
+  --bs-navbar-brand-hover-color:#fff;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand{
+  color:#fff !important;
+}
+
+.nav-footer,
+.nav-footer a{
+  color:#fff !important;
+}
