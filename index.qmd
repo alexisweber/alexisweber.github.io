@@ -41,6 +41,8 @@ format:
 
 I’m a computational biologist with deep expertise in multi-omic neuroscience and genomics, strong analytical and software skills, and a record of scientific productivity and mentorship
 
+{{< include partials/_contact.md >}}
+
 ## Skills {#skills .glass}
 
 {{< include partials/_skills-body.md >}}
@@ -61,7 +63,6 @@ I’m a computational biologist with deep expertise in multi-omic neuroscience a
 
 ## Teaching & Mentorship
 
-## Contact
 
 ## News
 {{< include partials/_news.md >}}
