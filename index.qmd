@@ -7,9 +7,9 @@ about:
   image-shape: round
   image-width: 17em
   links:
-    - text: LinkedIn
-      href: https://www.linkedin.com/in/alexisweberucla/
-    - text: GitHub
+    - text: "<span class='about-icon-btn' aria-label='LinkedIn'><i class='bi bi-linkedin'></i></span>"
+      href: https://www.linkedin.com/in/alexiswebercompbio/
+    - text: "<span class='about-icon-btn' aria-label='GitHub'><i class='bi bi-github'></i></span>"
       href: https://github.com/alexisweber
 page-layout: full
 format:
