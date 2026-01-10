@@ -1,0 +1,46 @@
+/* skills grid */
+.skills-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin-top: 0.75rem;
+}
+
+/* skill cards extend .ui-card */
+.skill-card{
+  font-size: 1.05em;
+}
+
+/* icons */
+.skill-card .bi{
+  font-size: 1.05em;
+  margin-right: .4rem;
+  position: relative;
+  top: 1px;
+}
+
+/* skill section text color */
+#skills,
+#skills h2,
+#skills h3,
+#skills p,
+#skills em,
+#skills li{
+  color:#fff;
+}
+
+#skills .bi{
+  color:#fff;
+  opacity: .95;
+}
+
+/* Accent icon in titles */
+.skill-card h3 .bi{
+  color: var(--accent);
+}
+
+@media (min-width: 900px){
+  .skills-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

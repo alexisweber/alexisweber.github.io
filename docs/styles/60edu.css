@@ -1,0 +1,187 @@
+.edu-timeline{
+  position: relative;
+  display: grid;
+  gap: 2.25rem;
+  padding: 1.25rem 0 1.75rem; /* more space so the line can extend */
+}
+
+/* longer center vertical line */
+.edu-timeline::before{
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  transform: translateX(-50%);
+  background: rgba(255,255,255,0.22);
+  z-index: 2;
+
+  /* extend beyond the container padding */
+  top: 0.25rem;
+  bottom: 0.25rem;
+}
+
+/* timeline item */
+.edu-item{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 1px;
+}
+
+/* timeline dots */
+.edu-dot{
+  position: absolute;
+  left: 50%;
+  top: 1.25rem;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: #ffffff;
+  box-shadow: 0 0 0 6px rgba(255,255,255,0.12);
+  z-index: 3; /* dot above everything */
+}
+
+/* edu card base */
+.edu-card{
+  width: min(var(--edu-card-w), 78%);
+  position: relative;
+  display: block;
+  z-index: 1;
+}
+
+
+.edu-card.ui-card{
+  padding: 0.85rem 0.95rem;
+}
+
+/* Use ONE hover rule (avoid conflict with .ui-card:hover) */
+.edu-card.ui-card:hover{
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 18px 44px rgba(0,0,0,0.28);
+}
+
+/* alternating card side placement */
+.edu-item.right .edu-card{
+  margin-left: 50%;
+  transform: translateX(var(--edu-gutter));
+}
+
+.edu-item.left .edu-card{
+  margin-left: 50%;
+  transform: translateX(calc(-1 * (var(--edu-gutter) + 100%)));
+}
+
+/* “branch” connector */
+.edu-item.right .edu-card::before,
+.edu-item.left .edu-card::before{
+  content: "";
+  position: absolute;
+  top: 1.55rem;
+  height: 2px;
+  background: rgba(255,255,255,0.35);
+  z-index: 2;
+}
+
+/* from card edge to center line */
+.edu-item.right .edu-card::before{
+  left: calc(-1 * var(--edu-gutter));
+  width: var(--edu-gutter);
+}
+
+.edu-item.left .edu-card::before{
+  right: calc(-1 * var(--edu-gutter));
+  width: var(--edu-gutter);
+}
+/* Themes */
+.edu-card--light{ background: #ffffff; color: #0f172a; }
+.edu-card--dark { background: #0b0b0c; color: #ffffff; }
+
+/* Top row layout */
+.edu-card__top{
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Square icon */
+.edu-icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: block;
+}
+
+.edu-title{
+  font-weight: 800;
+  font-size: 1.04rem;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.edu-subtitle{
+  font-weight: 500;
+  font-size: 0.92rem;
+  opacity: 0.85;
+  margin-top: 4px;
+}
+
+.edu-desc{
+  margin: 0.35rem 0 0.75rem 0;
+  font-size: 0.96rem;
+  line-height: 1.45;
+  opacity: 0.92;
+}
+
+/* Links */
+.edu-link{
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 650;
+  display: inline-block;
+  border-bottom: 1px solid rgba(255,255,255,0.35);
+  padding-bottom: 2px;
+}
+
+.edu-link:hover{
+  border-bottom-color: rgba(255,255,255,0.75);
+}
+
+.edu-card--light .edu-link{
+  background: rgba(15, 23, 42, 0.92);
+  border-radius: 999px;
+  padding: 6px 10px;
+  border-bottom: none;
+}
+
+/* Responsive: stack to one side and move line left */
+@media (max-width: 860px){
+  .edu-timeline::before{
+    left: 18px;
+    transform: none;
+    top: 0.25rem;
+    bottom: 0.25rem;
+  }
+
+  .edu-dot{
+    left: 18px;
+    transform: none;
+  }
+
+  .edu-item.right .edu-card,
+  .edu-item.left .edu-card{
+    margin-left: 46px;
+    transform: none;
+    width: min(620px, calc(100% - 56px));
+  }
+
+  .edu-item.right .edu-card::before,
+  .edu-item.left .edu-card::before{
+    left: -28px;
+    right: auto;
+    width: 28px;
+  }
+}

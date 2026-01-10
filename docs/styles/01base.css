@@ -1,0 +1,6 @@
+/* Full-page background image + base default */
+body{
+  background:
+    linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)),
+    url("../media/bckgrnd4.png") center / cover no-repeat fixed;
+}
