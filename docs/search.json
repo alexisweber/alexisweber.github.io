@@ -38,8 +38,8 @@
     "objectID": "index.html#about",
     "href": "index.html#about",
     "title": "Alexis Weber, Ph.D.",
-    "section": "Hi, I’m Alexis!",
-    "text": "Hi, I’m Alexis!\nI’m a computational biologist with deep expertise in multi-omic neuroscience and genomics, strong analytical and software skills, and a record of scientific productivity and mentorship\n Contact Me"
+    "section": "",
+    "text": "I design and implement production-ready bioinformatics workflows in Python and R that translate complex molecular data into reliable, interpretable results. My work bridges experimental assay development and computational systems, with a focus on data quality assessment, performance evaluation, and reproducibility across technologies and conditions.\n Contact Me"
   },
   {
     "objectID": "index.html#skills",
@@ -60,14 +60,14 @@
     "href": "index.html#publication",
     "title": "Alexis Weber, Ph.D.",
     "section": "Publication",
-    "text": "Publication\n\n\n\n\n\n\nFigure 1A\n\n\n\nWeber, A.~† and Vuong, C.K.~†, et al. “A single-cell multi-omic analysis identifies molecular and gene-regulatory mechanisms dysregulated in the developing Down syndrome neocortex.” bioRxiv. (2025).\nView publication\n\n\n\nCertificates\n\n\n Fundamentals of AI/ML in Precision Medicine\n\nStanford Data Ocean, Stanford University\nBuilding un/supervised models, neural networks, and transformers with machine learning for biomedical analysis in Python\n\n\n\n Fundamentals of Data Science in Precision Medicine and Cloud Computing\n\nStanford Data Ocean, Stanford University\nBiostatistical and bioinformatic analysis, using AWS and Python\n\n\n\n UCLA Biosciences Leadership Series\n\nGraduate Program in Biosciences, UCLA\nEffective communication, project management, teamwork and research self-efficacy\n\n\n\n Entering Mentorship Training\n\nCenter for Integration of Teaching, Research and Learning, UCLA\nEvidence based teaching strategies and mentorship in STEM\n\n\n\n\n\nEducation & Experience\n\n\n\n\n\n\n\n\n\n\nPh.D. — Human Genetics\n\n\nUniversity of California, Los Angeles (UCLA)\n\n\n\n\nDefining molecular and gene dysregulation in Down syndrome neocortex. Dissertation focused on single-cell multi-omic analysis of human neurodevelopment and aneuploidy, including reproducible pipelines for RNA/ATAC integration, pseudotime, and GRN inference.\n\nDissertation →\n\n\n\n\n\n\n\n\n\n\n\nResearcher — Computational Genomics in Neurodegenerative Disease\n\n\nVan Andel Research Institute (VARI)\n\n\n\n\nDesigned and applied Python and R-based computation to identify mechanisms of epigenetic dysregulation in Alzheimer’s disease patient cortices. Characterized the biochemical role of familial Parkinson’s disease variants in transmembrane proteins that affect endo-lysosomal intraneuronal trafficking.\n\n\n\n\n\n\n\n\n\n\n\n\nB.Sc. — Genomics and Molecular Genetics\n\n\nMichigan State University (MSU)\n\n\n\n\nUndergraduate research developing and implementing pipelines to identify differential patterns of RNA editing and structural conformation in Trypanosoma brucei.\n\n\n\n\n\n\nTeaching & Mentorship\n\n\nNews\n\n\nThesis publication: Alexis’ thesis dissertation published on ProQuest: Defining molecular and gene dysregulation in Down syndrome neocortex.\n\nDec 11, 2025\n\n\n\nManuscript update: Submitted revised Ts21 multi-omic atlas manuscript. Under consideration at Science.\n\nDec 03, 2025\n\n\n\nManuscript pre-print published: Submitted pre-print of Ts21 multi-omic atlas manuscript. This is the first-ever publication in pre-print of neurodeveloping Ts21 single-cell multiome.\n\nJun 30, 2025\n\n\n\nThesis defense: Alexis successfully defends her thesis.\n\nJun 02, 2025"
+    "text": "Publication\n\n\n\n\n\n\nFigure 1A\n\n\n\nWeber, A.~† and Vuong, C.K.~†, et al. “A single-cell multi-omic analysis identifies molecular and gene-regulatory mechanisms dysregulated in the developing Down syndrome neocortex.” bioRxiv. (2025).\nView publication\n\n\n\nCertificates\n\n\n Fundamentals of AI/ML in Precision Medicine\n\nStanford Data Ocean, Stanford University\nBuilding un/supervised models, neural networks, and transformers with machine learning for biomedical analysis in Python\n\n\n\n Fundamentals of Data Science in Precision Medicine and Cloud Computing\n\nStanford Data Ocean, Stanford University\nBiostatistical and bioinformatic analysis, using AWS and Python\n\n\n\n UCLA Biosciences Leadership Series\n\nGraduate Program in Biosciences, UCLA\nEffective communication, project management, teamwork and research self-efficacy\n\n\n\n Entering Mentorship Training\n\nCenter for Integration of Teaching, Research and Learning, UCLA\nEvidence based teaching strategies and mentorship in STEM\n\n\n\n\n\nTimeline\n\n\n\n\n\n\n\n\n\n\nPh.D. — Human Genetics\n\n\nUniversity of California, Los Angeles (UCLA)\n\n\n\n\nDefining molecular and gene dysregulation in Down syndrome neocortex. Dissertation focused on single-cell multi-omic analysis of human neurodevelopment and aneuploidy, including reproducible pipelines for RNA/ATAC integration, pseudotime, and GRN inference.\n\nDissertation →\n\n\n\n\n\n\n\n\n\n\n\nResearcher — Computational Genomics in Neurodegenerative Disease\n\n\nVan Andel Research Institute (VARI)\n\n\n\n\nDesigned and applied Python and R-based computation to identify mechanisms of epigenetic dysregulation in Alzheimer’s disease patient cortices. Characterized the biochemical role of familial Parkinson’s disease variants in transmembrane proteins that affect endo-lysosomal intraneuronal trafficking.\n\n\n\n\n\n\n\n\n\n\n\n\nB.Sc. — Genomics and Molecular Genetics\n\n\nMichigan State University (MSU)\n\n\n\n\nUndergraduate research developing and implementing pipelines to identify differential patterns of RNA editing and structural conformation in Trypanosoma brucei.\n\n\n\n\n\n\nNews\n\n\nThesis publication: Alexis’ thesis dissertation published on ProQuest: Defining molecular and gene dysregulation in Down syndrome neocortex.\n\nDec 11, 2025\n\n\n\nManuscript update: Submitted revised Ts21 multi-omic atlas manuscript. Under consideration at Science.\n\nDec 03, 2025\n\n\n\nManuscript pre-print published: Submitted pre-print of Ts21 multi-omic atlas manuscript. This is the first-ever publication in pre-print of neurodeveloping Ts21 single-cell multiome.\n\nJun 30, 2025\n\n\n\nThesis defense: Alexis successfully defends her thesis.\n\nJun 02, 2025"
   },
   {
     "objectID": "index.html#certificates",
     "href": "index.html#certificates",
     "title": "Alexis Weber, Ph.D.",
     "section": "Certificates",
-    "text": "Certificates"
+    "text": "Certificates\n\n\n Fundamentals of AI/ML in Precision Medicine\n\nStanford Data Ocean, Stanford University\nBuilding un/supervised models, neural networks, and transformers with machine learning for biomedical analysis in Python\n\n\n\n Fundamentals of Data Science in Precision Medicine and Cloud Computing\n\nStanford Data Ocean, Stanford University\nBiostatistical and bioinformatic analysis, using AWS and Python\n\n\n\n UCLA Biosciences Leadership Series\n\nGraduate Program in Biosciences, UCLA\nEffective communication, project management, teamwork and research self-efficacy\n\n\n\n Entering Mentorship Training\n\nCenter for Integration of Teaching, Research and Learning, UCLA\nEvidence based teaching strategies and mentorship in STEM"
   },
   {
     "objectID": "index.html#education-experience",
@@ -115,8 +115,8 @@
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Alexis Weber, Ph.D.",
-    "section": "Education & Experience",
-    "text": "Education & Experience\n\n\n\n\n\n\n\n\n\n\nPh.D. — Human Genetics\n\n\nUniversity of California, Los Angeles (UCLA)\n\n\n\n\nDefining molecular and gene dysregulation in Down syndrome neocortex. Dissertation focused on single-cell multi-omic analysis of human neurodevelopment and aneuploidy, including reproducible pipelines for RNA/ATAC integration, pseudotime, and GRN inference.\n\nDissertation →\n\n\n\n\n\n\n\n\n\n\n\nResearcher — Computational Genomics in Neurodegenerative Disease\n\n\nVan Andel Research Institute (VARI)\n\n\n\n\nDesigned and applied Python and R-based computation to identify mechanisms of epigenetic dysregulation in Alzheimer’s disease patient cortices. Characterized the biochemical role of familial Parkinson’s disease variants in transmembrane proteins that affect endo-lysosomal intraneuronal trafficking.\n\n\n\n\n\n\n\n\n\n\n\n\nB.Sc. — Genomics and Molecular Genetics\n\n\nMichigan State University (MSU)\n\n\n\n\nUndergraduate research developing and implementing pipelines to identify differential patterns of RNA editing and structural conformation in Trypanosoma brucei."
+    "section": "Timeline",
+    "text": "Timeline\n\n\n\n\n\n\n\n\n\n\nPh.D. — Human Genetics\n\n\nUniversity of California, Los Angeles (UCLA)\n\n\n\n\nDefining molecular and gene dysregulation in Down syndrome neocortex. Dissertation focused on single-cell multi-omic analysis of human neurodevelopment and aneuploidy, including reproducible pipelines for RNA/ATAC integration, pseudotime, and GRN inference.\n\nDissertation →\n\n\n\n\n\n\n\n\n\n\n\nResearcher — Computational Genomics in Neurodegenerative Disease\n\n\nVan Andel Research Institute (VARI)\n\n\n\n\nDesigned and applied Python and R-based computation to identify mechanisms of epigenetic dysregulation in Alzheimer’s disease patient cortices. Characterized the biochemical role of familial Parkinson’s disease variants in transmembrane proteins that affect endo-lysosomal intraneuronal trafficking.\n\n\n\n\n\n\n\n\n\n\n\n\nB.Sc. — Genomics and Molecular Genetics\n\n\nMichigan State University (MSU)\n\n\n\n\nUndergraduate research developing and implementing pipelines to identify differential patterns of RNA editing and structural conformation in Trypanosoma brucei."
   },
   {
     "objectID": "index_v1.html#human-genetics-computational-scientist",
@@ -194,5 +194,75 @@
     "title": "Alexis Weber, Ph.D.",
     "section": "News",
     "text": "News\n#links need to be white, add timeline, github api"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "",
+    "text": "I design and implement production-ready bioinformatics workflows in Python and R that translate complex molecular data into reliable, interpretable results. My work bridges experimental assay development and computational systems, with a focus on data quality assessment, performance evaluation, and reproducibility across technologies and conditions.\n Contact Me"
+  },
+  {
+    "objectID": "index.html#timeline",
+    "href": "index.html#timeline",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Timeline",
+    "text": "Timeline\n\n\n\n\n\n\n\n\n\n\nPh.D. — Human Genetics\n\n\nUniversity of California, Los Angeles (UCLA)\n\n\n\n\nDefining molecular and gene dysregulation in Down syndrome neocortex. Dissertation focused on single-cell multi-omic analysis of human neurodevelopment and aneuploidy, including reproducible pipelines for RNA/ATAC integration, pseudotime, and GRN inference.\n\nDissertation →\n\n\n\n\n\n\n\n\n\n\n\nResearcher — Computational Genomics in Neurodegenerative Disease\n\n\nVan Andel Research Institute (VARI)\n\n\n\n\nDesigned and applied Python and R-based computation to identify mechanisms of epigenetic dysregulation in Alzheimer’s disease patient cortices. Characterized the biochemical role of familial Parkinson’s disease variants in transmembrane proteins that affect endo-lysosomal intraneuronal trafficking.\n\n\n\n\n\n\n\n\n\n\n\n\nB.Sc. — Genomics and Molecular Genetics\n\n\nMichigan State University (MSU)\n\n\n\n\nUndergraduate research developing and implementing pipelines to identify differential patterns of RNA editing and structural conformation in Trypanosoma brucei."
+  },
+  {
+    "objectID": "index_v2.html",
+    "href": "index_v2.html",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "",
+    "text": "I’m a computational biologist with deep expertise in multi-omic neuroscience and genomics, strong analytical and software skills, and a record of scientific productivity and mentorship.\n Contact Me"
+  },
+  {
+    "objectID": "index_v2.html#about",
+    "href": "index_v2.html#about",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "",
+    "text": "I’m a computational biologist with deep expertise in multi-omic neuroscience and genomics, strong analytical and software skills, and a record of scientific productivity and mentorship.\n Contact Me"
+  },
+  {
+    "objectID": "index_v2.html#skills",
+    "href": "index_v2.html#skills",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Skills",
+    "text": "Skills\n\n\n Languages\n\nR · Python · Bash · CSS · HTML\nSingle-cell analysis, pipeline automation, reproducible workflows\n\n\n\n Frameworks\n\nSeurat · Signac · Monocle3 · CellChat · SCENIC+ · glmmTMB · lme4\nMulti-omic integration, trajectory, interaction and GRN inference, mixed-model statistics\n\n\n\n Data Analytics\n\nMultiomics · Biostatistics · Machine Learning\nIntegrative modeling, visualization, pattern discovery\n\n\n\n Experimental Lab Work\n\nGenetics & Genomics · Neuroscience · Neurodevelopment\nHuman cortical development, cell-type characterization, imaging"
+  },
+  {
+    "objectID": "index_v2.html#projects",
+    "href": "index_v2.html#projects",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Projects",
+    "text": "Projects\n\n\n\n\n\n\nTs21 Neocortical Multiome Atlas\n\n\n\n\n\n\n\nTs21 NPC Multiome Atlas\n\n\n\n\n\n\n\nNeurodevelopmental Cell Predictor"
+  },
+  {
+    "objectID": "index_v2.html#publication",
+    "href": "index_v2.html#publication",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Publication",
+    "text": "Publication\n\n\n\n\n\n\nFigure 1A\n\n\n\nWeber, A.~† and Vuong, C.K.~†, et al. “A single-cell multi-omic analysis identifies molecular and gene-regulatory mechanisms dysregulated in the developing Down syndrome neocortex.” bioRxiv. (2025).\nView publication\n\n\n\nCertificates\n\n\n Fundamentals of AI/ML in Precision Medicine\n\nStanford Data Ocean, Stanford University\nBuilding un/supervised models, neural networks, and transformers with machine learning for biomedical analysis in Python\n\n\n\n Fundamentals of Data Science in Precision Medicine and Cloud Computing\n\nStanford Data Ocean, Stanford University\nBiostatistical and bioinformatic analysis, using AWS and Python\n\n\n\n UCLA Biosciences Leadership Series\n\nGraduate Program in Biosciences, UCLA\nEffective communication, project management, teamwork and research self-efficacy\n\n\n\n Entering Mentorship Training\n\nCenter for Integration of Teaching, Research and Learning, UCLA\nEvidence based teaching strategies and mentorship in STEM\n\n\n\n\n\nTimeline\n\n\n\n\n\n\n\n\n\n\nPh.D. — Human Genetics\n\n\nUniversity of California, Los Angeles (UCLA)\n\n\n\n\nDefining molecular and gene dysregulation in Down syndrome neocortex. Dissertation focused on single-cell multi-omic analysis of human neurodevelopment and aneuploidy, including reproducible pipelines for RNA/ATAC integration, pseudotime, and GRN inference.\n\nDissertation →\n\n\n\n\n\n\n\n\n\n\n\nResearcher — Computational Genomics in Neurodegenerative Disease\n\n\nVan Andel Research Institute (VARI)\n\n\n\n\nDesigned and applied Python and R-based computation to identify mechanisms of epigenetic dysregulation in Alzheimer’s disease patient cortices. Characterized the biochemical role of familial Parkinson’s disease variants in transmembrane proteins that affect endo-lysosomal intraneuronal trafficking.\n\n\n\n\n\n\n\n\n\n\n\n\nB.Sc. — Genomics and Molecular Genetics\n\n\nMichigan State University (MSU)\n\n\n\n\nUndergraduate research developing and implementing pipelines to identify differential patterns of RNA editing and structural conformation in Trypanosoma brucei.\n\n\n\n\n\n\nNews\n\n\nThesis publication: Alexis’ thesis dissertation published on ProQuest: Defining molecular and gene dysregulation in Down syndrome neocortex.\n\nDec 11, 2025\n\n\n\nManuscript update: Submitted revised Ts21 multi-omic atlas manuscript. Under consideration at Science.\n\nDec 03, 2025\n\n\n\nManuscript pre-print published: Submitted pre-print of Ts21 multi-omic atlas manuscript. This is the first-ever publication in pre-print of neurodeveloping Ts21 single-cell multiome.\n\nJun 30, 2025\n\n\n\nThesis defense: Alexis successfully defends her thesis.\n\nJun 02, 2025"
+  },
+  {
+    "objectID": "index_v2.html#certificates",
+    "href": "index_v2.html#certificates",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Certificates",
+    "text": "Certificates\n\n\n Fundamentals of AI/ML in Precision Medicine\n\nStanford Data Ocean, Stanford University\nBuilding un/supervised models, neural networks, and transformers with machine learning for biomedical analysis in Python\n\n\n\n Fundamentals of Data Science in Precision Medicine and Cloud Computing\n\nStanford Data Ocean, Stanford University\nBiostatistical and bioinformatic analysis, using AWS and Python\n\n\n\n UCLA Biosciences Leadership Series\n\nGraduate Program in Biosciences, UCLA\nEffective communication, project management, teamwork and research self-efficacy\n\n\n\n Entering Mentorship Training\n\nCenter for Integration of Teaching, Research and Learning, UCLA\nEvidence based teaching strategies and mentorship in STEM"
+  },
+  {
+    "objectID": "index_v2.html#timeline",
+    "href": "index_v2.html#timeline",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "Timeline",
+    "text": "Timeline\n\n\n\n\n\n\n\n\n\n\nPh.D. — Human Genetics\n\n\nUniversity of California, Los Angeles (UCLA)\n\n\n\n\nDefining molecular and gene dysregulation in Down syndrome neocortex. Dissertation focused on single-cell multi-omic analysis of human neurodevelopment and aneuploidy, including reproducible pipelines for RNA/ATAC integration, pseudotime, and GRN inference.\n\nDissertation →\n\n\n\n\n\n\n\n\n\n\n\nResearcher — Computational Genomics in Neurodegenerative Disease\n\n\nVan Andel Research Institute (VARI)\n\n\n\n\nDesigned and applied Python and R-based computation to identify mechanisms of epigenetic dysregulation in Alzheimer’s disease patient cortices. Characterized the biochemical role of familial Parkinson’s disease variants in transmembrane proteins that affect endo-lysosomal intraneuronal trafficking.\n\n\n\n\n\n\n\n\n\n\n\n\nB.Sc. — Genomics and Molecular Genetics\n\n\nMichigan State University (MSU)\n\n\n\n\nUndergraduate research developing and implementing pipelines to identify differential patterns of RNA editing and structural conformation in Trypanosoma brucei."
+  },
+  {
+    "objectID": "index_v2.html#news",
+    "href": "index_v2.html#news",
+    "title": "Alexis Weber, Ph.D.",
+    "section": "News",
+    "text": "News\n\n\nThesis publication: Alexis’ thesis dissertation published on ProQuest: Defining molecular and gene dysregulation in Down syndrome neocortex.\n\nDec 11, 2025\n\n\n\nManuscript update: Submitted revised Ts21 multi-omic atlas manuscript. Under consideration at Science.\n\nDec 03, 2025\n\n\n\nManuscript pre-print published: Submitted pre-print of Ts21 multi-omic atlas manuscript. This is the first-ever publication in pre-print of neurodeveloping Ts21 single-cell multiome.\n\nJun 30, 2025\n\n\n\nThesis defense: Alexis successfully defends her thesis.\n\nJun 02, 2025"
   }
 ]
