@@ -200,7 +200,11 @@
     "href": "index.html",
     "title": "Alexis Weber, Ph.D.",
     "section": "",
+<<<<<<< HEAD
     "text": "I design and implement production-ready bioinformatics workflows in Python and R that translate complex molecular data into reliable, interpretable results. My work bridges experimental assay development and computational systems, with a focus on data quality assessment, performance evaluation, and reproducibility across technologies and conditions.\n Contact Me"
+=======
+    "text": "I’m a computational biologist with deep expertise in multi-omic neuroscience and genomics, strong analytical and software skills, and a record of scientific productivity and mentorship.\n Contact Me"
+>>>>>>> bb2d0c6 (edit index sections to remove top header and add position below about section)
   },
   {
     "objectID": "index.html#timeline",
@@ -208,6 +212,7 @@
     "title": "Alexis Weber, Ph.D.",
     "section": "Timeline",
     "text": "Timeline\n\n\n\n\n\n\n\n\n\n\nPh.D. — Human Genetics\n\n\nUniversity of California, Los Angeles (UCLA)\n\n\n\n\nDefining molecular and gene dysregulation in Down syndrome neocortex. Dissertation focused on single-cell multi-omic analysis of human neurodevelopment and aneuploidy, including reproducible pipelines for RNA/ATAC integration, pseudotime, and GRN inference.\n\nDissertation →\n\n\n\n\n\n\n\n\n\n\n\nResearcher — Computational Genomics in Neurodegenerative Disease\n\n\nVan Andel Research Institute (VARI)\n\n\n\n\nDesigned and applied Python and R-based computation to identify mechanisms of epigenetic dysregulation in Alzheimer’s disease patient cortices. Characterized the biochemical role of familial Parkinson’s disease variants in transmembrane proteins that affect endo-lysosomal intraneuronal trafficking.\n\n\n\n\n\n\n\n\n\n\n\n\nB.Sc. — Genomics and Molecular Genetics\n\n\nMichigan State University (MSU)\n\n\n\n\nUndergraduate research developing and implementing pipelines to identify differential patterns of RNA editing and structural conformation in Trypanosoma brucei."
+<<<<<<< HEAD
   },
   {
     "objectID": "index_v2.html",
@@ -264,5 +269,7 @@
     "title": "Alexis Weber, Ph.D.",
     "section": "News",
     "text": "News\n\n\nThesis publication: Alexis’ thesis dissertation published on ProQuest: Defining molecular and gene dysregulation in Down syndrome neocortex.\n\nDec 11, 2025\n\n\n\nManuscript update: Submitted revised Ts21 multi-omic atlas manuscript. Under consideration at Science.\n\nDec 03, 2025\n\n\n\nManuscript pre-print published: Submitted pre-print of Ts21 multi-omic atlas manuscript. This is the first-ever publication in pre-print of neurodeveloping Ts21 single-cell multiome.\n\nJun 30, 2025\n\n\n\nThesis defense: Alexis successfully defends her thesis.\n\nJun 02, 2025"
+=======
+>>>>>>> bb2d0c6 (edit index sections to remove top header and add position below about section)
   }
 ]
