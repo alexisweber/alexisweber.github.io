@@ -15,3 +15,24 @@
 .nav-footer a{
   color:#fff !important;
 }
+
+.site-footer{
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 4rem;
+  border-top: 1px solid rgba(255,255,255,.12);
+  background: transparent;
+}
+
+.footer-inner{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+.photo-credit{
+  font-size: 0.75rem;
+  color: rgba(255,255,255,.6);
+}
