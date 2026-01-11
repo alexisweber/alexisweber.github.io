@@ -45,7 +45,7 @@ I design and implement production-ready bioinformatics workflows in Python and R
 
 {{< include partials/_contact.md >}}
 
-## Skills {#skills .glass}
+## Technical Skills {#skills .glass}
 
 {{< include partials/_skills-body.md >}}
 
