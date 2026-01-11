@@ -33,6 +33,8 @@ format:
       - styles.css
       - media/icons/bootstrap-icons.css  
     toc: false
+    include-after-body:
+      - partials/_footer.html
 about: 
   template: trestles
   id: about
