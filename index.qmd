@@ -66,5 +66,5 @@ I design and implement production-ready bioinformatics workflows in Python and R
 ## News
 {{< include partials/_news.md >}}
 
-*Los Angeles city scape from Griffith Observatory, 2022, by Alexis Weber*
+
 
