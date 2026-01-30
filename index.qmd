@@ -39,9 +39,9 @@ format:
 
 ## Hi, I'm Alexis! {#about .glass}
 
-#### Human Genetics | Bioinformatics Developer
+#### Computational Scientist | Bioinformatics | Genomics
 
-I design and implement production-ready bioinformatics workflows in Python and R that translate complex molecular data into reliable, interpretable results. My work bridges experimental assay development and computational systems, with a focus on data quality assessment, performance evaluation, and reproducibility across technologies and conditions.
+I design and implement production-ready bioinformatics and computational biology workflows in Python and R that translate complex genomics and molecular datasets into reliable, interpretable results. My work bridges experimental biology and scalable computational systems, with a focus on data quality, performance evaluation, and reproducible analysis across technologies, cohorts, and conditions.
 
 {{< include partials/_contact.md >}}
 
