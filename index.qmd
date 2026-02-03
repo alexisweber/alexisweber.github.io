@@ -43,6 +43,7 @@ format:
 
 I design and implement production-ready bioinformatics and computational biology workflows in Python and R that translate complex genomics and molecular datasets into reliable, interpretable results. My work bridges experimental biology and scalable computational systems, with a focus on data quality, performance evaluation, and reproducible analysis across technologies, cohorts, and conditions.
 
+
 {{< include partials/_contact.md >}}
 
 ## Technical Skills {#skills .glass}
