@@ -8,6 +8,9 @@ categories: [single-cell, app]
 page-layout: article
 ---
 
+::: mb-3
+[Launch App ↗](https://your-app.example){.btn .btn-primary target="_blank" rel="noopener"} [GitHub ↗](https://github.com/you/atlas){.btn .btn-secondary target="_blank" rel="noopener"} [Publication ↗](https://doi.org/xx.xxxx/xxxx){.btn .btn-outline-dark target="_blank" rel="noopener"}
+:::
 
 ::: callout-note
 #### Ts21 Neocortical Multiome Atlas
