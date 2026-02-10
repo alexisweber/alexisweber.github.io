@@ -51,9 +51,12 @@ I design and implement production-ready bioinformatics and computational biology
 {{< include partials/_skills-body.md >}}
 
 ## Projects {#projects .glass}
+
 {{< include partials/_projects.md >}}
 
+
 ## Publication {#publication .glass .text-white}
+
 {{< include partials/_publication.qmd >}}
 
 ## Certificates {#certificates .glass}
